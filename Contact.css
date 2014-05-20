@@ -1,0 +1,153 @@
+﻿body
+{
+    background-color: #330066;
+}
+
+#form1
+{
+    top: 0;
+    left: 0;
+}
+#backgroundImage
+{
+    width: 1600px;
+    height: 200px;
+    position: fixed;
+    z-index: -1;
+    top: -15px;
+    left: 0px;
+}
+#menu
+{
+    width: 860px;
+    margin: -10px 0 0 60px;
+    float: left;
+}
+#menu ul
+{
+    float:left;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    border-bottom: solid 6px #FF6600;
+}
+#menu li
+{
+    display: inline;
+}
+#menu a
+{
+    float: left;
+    padding: 12px 0px 8px 25px;
+    color: White;
+    background-image: url('pictures/purpleMenuHeader.png');
+    background-repeat: no-repeat;
+    /*background: #330066;*/
+    font-family: Tahoma;
+    text-decoration: none;
+    margin: 0 0 0 0;
+    font-size: 16px;
+    width: 120px;
+    
+    /*border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px; */
+}
+#menu a.selected
+{
+    color: Black;
+    background-image: url('pictures/blueMenuHeader.png'); 
+}
+#menu a:hover
+{
+    color: Black;
+    background-image: url('pictures/blueMenuHeader.png');
+}
+#bodyDiv
+{
+    clear: left;
+    width: 725px;
+    margin: 0 900px 0 60px;
+    background-color: #EDF3FE;
+    display: inline-block;
+}
+  
+#left
+{
+    float: left;
+    height: 100%;
+    margin: 10px 30px 0 15px;
+}
+#leftContent
+{
+    padding: 8px 6px 12px 4px;
+}
+table.InfoBox 
+{
+    border-collapse: collapse;
+}
+table.InfoBox th 
+{
+    height: 29px;
+}
+table.InfoBox th.Left 
+{
+    background: url('pictures/LightBlueGradientHeaderLeft.png') no-repeat scroll left top transparent;
+    width: 6px;
+}
+table.InfoBox th.Center 
+{
+    background: url('pictures/LightBlueGradientHeaderCenter.png') repeat-x scroll 0 0 transparent;
+    color: #013760;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 0 0 8px;
+    width: 900px;
+    text-align: left;
+}
+table.InfoBox th.Right 
+{
+    background: url('pictures/LightBlueGradientHeaderRight.png') no-repeat scroll right top transparent;
+    width: 6px;
+}
+#footer
+{
+    clear: both;
+    width: 100%;
+    margin: 0 0 0 0;
+    float:left;
+}
+#footer ul
+{
+    height: 40px;
+    margin: 0;
+    padding: 16px 0 16px 30px;
+    list-style-type:none;
+    background: #330066;
+    border-top: solid 6px #FF6600;
+
+}
+#footer li
+{
+    float: left;
+    display: inline;
+    color: White;
+    font-family: Arial, Sans-Serif;
+    margin: 6px 0 6px 0;
+    font-size: 14px;
+}
+#footer a
+{
+    float: left;
+    padding: 0 0px 0 0;
+    color: White;
+    /*background: #330066;*/
+    text-decoration: none;
+    margin: 0 8px 0 8px;
+}
+#footer a:hover
+{
+    text-decoration: underline;
+}

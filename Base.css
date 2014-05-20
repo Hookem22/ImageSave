@@ -1,0 +1,543 @@
+﻿.noShow
+{
+    display: none;
+}
+
+#globalheader
+{
+    position: relative;
+    width: 900px;
+    height: 50px;
+    margin: 30px auto 0;
+    z-index: 2;
+    font-size: 12px;
+}
+#logoImage
+{
+    float: left;
+}
+#subheader
+{
+    width: 400px;
+    float: left;
+    margin: 30px 0 0 180px;
+    /*color: #4183C4;*/
+}
+#subheader ul
+{
+    float:left;
+    margin: 10px 0 0 -140px;
+    padding: 0;
+    list-style-type:none;
+}
+#subheader li
+{
+    display: inline;
+}
+#subheader li:hover div, #subheader li div:hover
+{
+    display: block;
+    height: 50px;
+    margin: 30px 0 0 -220px;
+    position: absolute;
+    z-index: 99;
+
+    margin-left: 3px;
+    margin-right: 26px;
+    padding: 10px 14px 15px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#F2F2F2));
+    background: -moz-linear-gradient(100% 100% 90deg, #F2F2F2, white);
+    background: gradient(linear, 0% 0%, 0% 100%, from(white), to(#F2F2F2));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#F2F2F2', GradientType=0));
+    background-color: #F8F8F8;
+    margin-bottom: 18px;
+    
+    font-size: 12px;
+    line-height: 1.7em;
+    border: 1px solid #E1E1E1;
+    border-top: 1px solid whiteSmoke;
+    border-bottom: 1px solid #C4C4C4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -khtml-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+#subheader li a
+{
+    font-size: 14px;
+    display: block;
+    color: #333;
+    float: left;
+    margin: 0 0 0 2.8em;
+    padding: .3em 0 .3em 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 white;
+    line-height: 18px; 
+}
+#subheader li a:hover
+{
+    color:#08C;
+}
+
+.grayText
+{
+    color: Gray;
+}
+.signInText
+{
+    color: Gray;
+    padding: 2px 0;
+    margin: 0 0 8px 0;
+}
+.signInTextBlack
+{
+    color: Black;
+    padding: 2px 0;
+    margin: 0 0 8px 0;
+}
+.blueButton
+{
+    font: 14px/20px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.7em;
+    cursor: pointer;
+    color: #08C;
+    text-decoration: none;
+    
+    display: inline;
+    padding: 4px 0 6px 10px;
+    font-size: 12px;
+    text-align: center;
+    background: transparent url("Pictures/button_lilblue_left.png") no-repeat 0 50%;
+    zoom: 1;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.blueButton span
+{
+    background: transparent url("Pictures/button_lilblue_right.png") no-repeat 100% 50%;
+    padding: 4px 18px 6px 8px;
+    color: white;
+    text-shadow: -1px -1px 0 #096291;
+}
+.blueButton:hover span
+{
+    color:#e6e6e6;
+}
+.blueButton a, .blueButton:link, .blueButton:visited, .blueButton:active
+{
+    text-decoration: none;
+}
+.grayButton
+{
+    font: 14px/20px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.7em;
+    cursor: pointer;
+    text-decoration: none;
+    
+    display: inline;
+    padding: 4px 0 6px 10px;
+    font-size: 12px;
+    text-align: center;
+    background: transparent url("Pictures/button_left.png") no-repeat 0 50%;
+    zoom: 1;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.grayButton span
+{
+    background: transparent url("Pictures/button_right.png") no-repeat 100% 50%;
+    padding: 4px 18px 6px 8px;
+    color: #333;
+    text-shadow: -1px -1px 0 #E7E6E6;
+}
+.grayButton:hover span
+{
+    color:#000;
+}
+.grayButton a, .grayButton:link, .grayButton:visited, .grayButton:active
+{
+    text-decoration: none;
+}
+.findPlayerDiv
+{
+    display: block;
+    height: 50px;
+    margin: 30px 0 0 -220px;
+    position: absolute;
+    z-index: 99;
+}
+.boxDiv
+{
+    margin-left: 3px;
+    margin-right: 26px;
+    padding: 10px 14px 15px;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#F2F2F2));
+    background: -moz-linear-gradient(100% 100% 90deg, #F2F2F2, white);
+    background: gradient(linear, 0% 0%, 0% 100%, from(white), to(#F2F2F2));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#F2F2F2', GradientType=0));
+    background-color: #F8F8F8;
+    margin-bottom: 18px;
+    
+    font-size: 12px;
+    line-height: 1.7em;
+    border: 1px solid #E1E1E1;
+    border-top: 1px solid whiteSmoke;
+    border-bottom: 1px solid #C4C4C4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -khtml-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.boxDivWithHeader
+{
+    border-color: #C4C4C4 #E1E1E1 #C4C4C4 #E1E1E1;
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 18px;
+    padding: 1.6em 18px 1px;
+    background: white;
+    border: 1px solid #E1E1E1;
+    border-top: 1px solid whiteSmoke;
+    border-bottom: 1px solid #C4C4C4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -khtml-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+.boxDivWithHeader .header
+{
+    background: url(https://devimages.apple.com.edgekey.net/login/images/box_header_bg.jpg) repeat-x;
+    padding: 8px 20px 12px;
+    margin: -1.5em -17px 1em;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+
+.lightBlueButton
+{    
+    font-size: 18px;    
+    line-height: 1.7em;    
+    font-family: "Lucidia Grande", Helvetica, Arial;    
+    margin: 20px;    
+    cursor: pointer;    
+    background-position: 100% -141px;    
+    height: 48px;    
+    background-image: url("Pictures/btn-select-big-sprite.png");    
+    background-repeat: no-repeat;    
+    display: inline-block;    
+    margin: 0;    
+    padding: 0;
+}
+.lightBlueButton:hover 
+{    
+    background-position: 100% -188px;
+}
+.lightBlueButton span.buttonSpan
+{    
+    background-position: 0 0;    
+    height: 46px;    
+    line-height: 36px;    
+    padding-top: 2px;    
+    margin-right: 25px;    
+    padding-left: 30px;   
+     background-image: url("Pictures/btn-select-big-sprite.png");    
+     background-repeat: no-repeat;    
+     display: inline-block;        
+     color: White;
+} 
+.lightBlueButton:hover span.buttonSpan 
+{    
+    background-position: 0 -47px;
+}
+
+.DraftTableHeader
+{
+    border-spacing: 0; 
+    border-collapse: collapse;
+    top: -10px;
+    bottom: -10px;
+    position:relative;
+    z-index: 4;
+}
+.DraftTableHeader th
+{    
+    background-color: #D3D3D3;    
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f0f0f0', EndColorStr='#d3d3d3', GradientType=0));    
+    background-image: -moz-linear-gradient(#F0F0F0, #D3D3D3);    
+    background-image: -webkit-linear-gradient(#f0f0f0, #d3d3d3);
+    background-image: -o-linear-gradient(top, #f0f0f0, #d3d3d3);
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#f0f0f0), to(#d3d3d3));
+    
+    background-repeat: no-repeat;    
+    padding: 4px 10px;    
+    margin: 0;    
+    color: #272727;        
+    border: none;        
+    cursor: pointer;    
+    font-family: Arial, Sans-Serif;    
+    font-size: 11px;    
+    font-weight: bold;    
+    line-height: 18px;    
+    text-shadow: 0 1px 1px #FFFFFF;    
+    white-space: nowrap;    
+    text-align: left; 
+    width: 80px;  
+}
+
+.sideBarTable
+{
+    margin: 0 0 0px -51px;
+    list-style: none outside none;
+    display: block;
+    list-style-type: disc;
+    font-size: 0.857em;
+    line-height: 1.3em;
+    color: #333333;
+    font: 14px/20px "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+}
+.sideBarTable li
+{
+    display: inline;
+    margin: 0;
+    padding: 0;  
+}
+.sideBarTable li a
+{
+    cursor: pointer;
+    border-bottom: 1px solid #E5E5E5;
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    color: #686868;
+    display: block;
+    padding: 9px 30px 9px 9px;
+    position: relative;
+    text-shadow: 1px 1px #FFFFFF;   
+}
+.sideBarTable li a.draftStarted
+{
+    border: 3px solid red;
+    border-radius: 5px;
+}
+.sideBarTable li a.draftNotStarted
+{
+}
+.sideBarTable li a:link, .sideBarTable li a:visited, .sideBarTable li a:active {
+    text-decoration: none;
+}
+.sideBarTable li a span
+{
+    background: url("Pictures/arrows_sprite.png") no-repeat scroll 0 50% transparent;
+   
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    color: #686868;
+    text-shadow: 1px 1px #FFFFFF;
+   
+}
+.sideBarTable li a span.noBackground
+{
+    background: none;
+    float: right;
+
+    padding: 9px 15px 9px 0;
+    height: 100%;
+    width: 40px;
+    color: #686868;
+    text-shadow: 1px 1px #FFFFFF;
+}
+.sideBarTable li a:hover span.noBackground
+{
+    color: #0088CC;
+    text-decoration: none;
+}
+.sideBarTable li a:hover
+{
+    color: #0088CC;
+    text-decoration: none;
+}
+.sideBarTable li a:hover span
+{
+    background-position: -149px 50%;
+}
+.sideBarTable li a.sideBarTableHeader
+{
+    color: #000000;
+    cursor: default;
+    background: -moz-linear-gradient(100% 100% 90deg, #DCDCDC, #F3F3F3) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F3F3F3), to(gainsboro));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#DCDCDC', EndColorStr='#F3F3F3', GradientType=0));
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #dcdcdc;
+}
+.sideBarTable li a.sideBarTableHeader span
+{
+    background-position: -74px 50%;
+}
+.sideBarTable li div
+{
+    display: none;
+}
+.sideBarTable li:hover div
+{
+    z-index:10; 
+    margin: -45px 0 0 220px; 
+    position: absolute;
+    display: block;
+}
+.selectedScoreboard
+{
+    color: #0088CC;
+}
+
+.browse-strip {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px 5px 5px 5px;
+    -khtml-border-radius: 5px;
+    -o-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0 1px 1px #FFFFFF;
+    -moz-box-shadow: 0 1px 1px #FFFFFF;
+    -webkit-box-shadow: 0 1px 1px #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+   
+    
+    /*background: url("http://images.apple.com/v/iphone/b/images/nav_icon_squares.gif") no-repeat scroll 20px 17px, -moz-linear-gradient(center top , #FCFCFC, #EDEDED) repeat scroll 0 0 transparent;*/
+    background: none no-repeat scroll 20px 17px, -moz-linear-gradient(center top , #FCFCFC, #EDEDED) repeat scroll 0 0 transparent;
+    background-color: #fafafa;
+    display: inline-block;
+    padding: 13px 22px 14px 22px;
+   
+    text-decoration: none;
+    color: #0088CC;
+    cursor: pointer;
+    text-align: center;
+}
+ 
+.browse-strip:hover
+{
+    text-decoration: none;
+    background: none no-repeat scroll 20px -16px, -moz-linear-gradient(center top , #FAFAFA, #E6E6E6) repeat scroll 0 0 transparent;
+    background-color: #f7f7f7;
+    color: #0088CC;
+}
+.browse-strip a
+{
+    color: #0088CC;
+}
+.browse-strip:link, .browse-strip:visited, .browse-strip:active
+{
+    color: #0088CC;
+}
+
+.lightGrayHeader
+{
+    display: block;
+   
+    margin: 0 1px;
+    padding: 6px 0 3px;
+    font-size: 16px;
+    background: url(http://images.apple.com/global/elements/productbrowser/nav_bg.png) no-repeat scroll 0 0 transparent;
+    background-image: url(http://images.apple.com/global/elements/productbrowser/nav_bg.png);
+    background-repeat: no-repeat;
+    background: -moz-linear-gradient(center bottom , #DFDFDF 0%, #F2F2F2 66%, #F2F2F2 90%, #E6E6E6 93%, #BEBEBE 96%, #969696 100%) repeat scroll 0 0 transparent;
+    text-align: center;
+    width: 99%;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    
+    font-family: Helvetica, Arial;
+}
+ 
+.darkBlueHeader
+{
+    margin: 4px 4px 0;
+    padding: 5px 0 2px 12px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #224272;
+    border-radius: 5px;
+   
+    color: White;
+    background-color: #224272;
+ 
+    width: 93%;
+    font-family: Helvetica, Arial;
+}
+
+.tableRowStyle
+{
+    background-color: #F8F8F8;
+    border-bottom: 1px dotted #CCC;
+}
+
+.altTableRowStyle
+{
+    background-color: White;
+    border-bottom: 1px dotted #CCC;
+}
+
+.footer
+{
+    clear: both;
+    display: block;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-width: 1px 0;
+    margin: 1.5em 0 2em;
+    padding: 0.5em 0;
+   
+    color: #6E6E6E;
+    font-size: 10px;
+    text-align: center;
+}
+.footerPiped
+{
+    float: left;
+    display: block;
+    margin: 2px;
+    padding-right: 10px;
+   
+    list-style: none outside none;
+}
+.footerPiped li
+{
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.footerPiped li a
+{
+    padding: 0 0 0 0.75em;
+    border-left: 1px solid #797C80;
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+    border-color: #CCCCCC;
+    color: #0088CC;
+}

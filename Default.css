@@ -1,0 +1,327 @@
+﻿html
+{
+    background-color: #F1F1F1;
+    overflow-y: scroll;
+}
+body 
+{
+    font: 14px/20px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    background-color: transparent;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+
+#bodyDiv
+{
+    /*height: 520px;
+    height: 800px;*/
+    min-height: 320px;
+    width: 1020px;
+    
+    position: relative;
+    margin: 0px auto 0 auto;
+    padding: 0px 0 0 4px;
+    border-radius: 4px;
+    -khtml-border-radius: 4px;
+    background: white;
+    border: 1px solid;
+    -webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    border-image: initial;
+    border-color: #E5E5E5 #DBDBDB #D2D2D2;
+    z-index: 1;
+}
+#left
+{
+    float: left;
+    width: 154px;
+    height: 100%;
+    margin: 0 6px;
+    
+    border-right: 1px solid #E5E5E5;
+    padding-top: 20px;
+}
+#right
+{
+    float: left;
+    width: 850px;
+    height: 100%;
+    margin: 0;
+    padding-top: 20px;
+}
+.blueTabs
+{
+    margin-top: -15px;
+}
+.blueTabs li
+{
+    font-size: 16px;
+    line-height: 18px;
+    list-style-type: none;
+    display: block;
+    float: left;
+    margin-right: 5px;
+    padding: 0;
+    z-index: 0;
+}
+.blueTabs li a
+{
+    background: none;
+    margin-top: 0;
+    top 0px;    
+}
+.blueTabs li span
+{
+    background: transparent url("Pictures/blueTabSprite.png") no-repeat scroll 0 0;
+    height: 29px;
+    color: #222222;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    min-width: 100px;
+    z-index: 2;
+    padding: 5px 0 5px 1px;
+    position: relative;
+    font-family: "Lucidia Grande", Helvetica, Arial;
+}
+.blueTabs li span.tabSelected, .blueTabs li span:hover
+{
+    background-position: 0 -30px;
+    color: white;
+    z-index: 8;
+}
+
+
+.draftGridViewRow
+{
+    font-size: 13px;
+    font-family: Tahoma;
+    border-bottom: 1px dotted #CCC;
+    
+}
+#ForgotPasswordLink
+{
+    vertical-align: sub;
+}
+
+.modal
+{
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+    background: transparent url('Pictures/modal-bg.png') top left repeat;
+}
+.modal-signup
+{
+    height: 380px;
+    width: 300px;
+    background-color: White;
+    z-index: 99;
+
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+#XButtonHome
+{
+    background: url('pictures/XButtonGrey.png') repeat scroll left top transparent;
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 20px;
+}
+#XButtonHome:hover
+{
+    background-position: 0 -20px;
+}
+.smallH1
+{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 0 0 20px;
+    line-height: 1.25em;
+    font-family: Verdana;
+    margin: 10px 0;
+}
+.banner, .full-banner, .page-banner 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #EBF7FC;
+    padding: 20px;
+    margin: 0 -15px;
+    width: 109.5%;
+    z-index: 1;
+    border: 1px solid #EDEDED;
+}
+.facebook-signin-button 
+{
+    font-size: 18px;
+    line-height: 30px;
+}
+.facebook-signin-button a 
+{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    background: #3B5998 url('pictures/facebookicon.png') no-repeat 15px center;
+    padding: 15px 15px 15px 50px;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: Arial;
+    vertical-align: baseline;
+}
+.facebook-signin-button a:hover
+{
+    color: white;
+    background-color: #344E86;
+}
+.facebook-signin-button a:link, .facebook-signin-button a:visited
+{
+    color: white;
+}
+.textareaBig
+{
+    font: 16px Arial,Helvetica,sans-serif;
+    height: 26px;
+}
+.graytextareaBig
+{
+    color: Gray;
+    font: 16px Arial,Helvetica,sans-serif;
+    height: 26px;
+}
+.blacktextareaBig
+{
+    color: Black;
+    font: 16px Arial,Helvetica,sans-serif;
+    height: 26px;
+}
+.button-submit
+{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 10px 15px;
+    background-color: #0091CE;
+    text-decoration: none;
+    -moz-box-sizing: border-box;
+    -moz-transition-duration: 0.2s;
+    -moz-transition-property: background-color;
+    border-radius: 3px 3px 3px 3px;
+}
+.button-submit:hover
+{
+    background-color: #39B2E5;
+}
+
+.imageDiv
+{
+    margin: 6px;
+    padding: 6px;
+    float: left;
+    
+    width: 185px;
+    height: 225px;
+        border: 1px solid #E8E8E8;
+    /*border-top: 1px solid whiteSmoke;
+    border-bottom: 1px solid #C4C4C4;*/
+    color: #222;
+    text-align: center;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+     box-shadow: 0 0 5px #efefef;
+    -webkit-box-shadow: 0 0 5px #efefef;
+    -moz-box-shadow: 0 0 5px #efefef;
+    -khtml-box-shadow: 0 0 5px #efefef;
+    -o-box-shadow: 0 0 5px #efefef;
+}
+.imageDiv:hover
+{
+    width: 185px;
+    height: 225px;
+    border: 1px solid #E8E8E8;
+    /*border-top: 1px solid whiteSmoke;
+    border-bottom: 1px solid #C4C4C4;*/
+    color: #222;
+    text-align: center;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+     box-shadow: 0 0 10px #333;
+    -webkit-box-shadow: 0 0 10px #333;
+    -moz-box-shadow: 0 0 10px #333;
+    -khtml-box-shadow: 0 0 10px #333;
+    -o-box-shadow: 0 0 10px #333;
+}
+.imageDiv span
+{
+    display: none;
+}
+.imageDiv:hover span
+{
+    display: block;
+}
+.imageSelected
+{
+}
+.coverDiv
+{
+    background: url("http://www.drafterparty.com/Pictures/modal-bg.png") repeat scroll left top transparent;
+    height: 200px;
+    width: 190px;
+    z-index: 10;
+    position:absolute;
+}
+.checkBoxSelected
+{
+    cursor: pointer;
+    background: url("Pictures/checkSelected.png") no-repeat scroll 0 0 transparent;
+    padding: 0px 0 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.checkBoxNotSelected
+{
+    cursor: pointer;
+    background: url("Pictures/checkNotSelected.png") no-repeat scroll 0 0 transparent;
+    padding: 0px 0 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #EEE;
+}
